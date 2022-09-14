@@ -29,3 +29,23 @@ _Ready to learn new technologies in the interests of the company (Redux / MobX, 
   - bash
   - Git/GitHub
   - Npm/yarn
+
+# Example code
+
+```
+const pressOnChange = id => {
+    setTodos(
+      todos.map(prev => {
+        if (prev.id === id) {
+          return {
+            ...prev,
+            complited: !prev.complited,
+          };
+        }
+        return prev;
+      }),
+    );
+  };
+```
+
+![baby-yoda](lFUHo5.jpg)
