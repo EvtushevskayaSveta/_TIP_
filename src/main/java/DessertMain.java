@@ -1,4 +1,4 @@
-package model;
+import model.Dessert;
 
 import java.util.Comparator;
 import java.util.List;

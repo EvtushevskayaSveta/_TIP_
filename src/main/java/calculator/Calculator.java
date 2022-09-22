@@ -1,4 +1,6 @@
-package model;
+package calculator;
+
+import model.Beef;
 
 import java.util.Arrays;
 import java.util.List;
